@@ -33,6 +33,7 @@ that you can run a local cluster with username and password authentication.
 [source,yaml]
 ----
 xpack.security.enabled: true
+xpack.security.transport.ssl.enabled: true
 ----
 +
 NOTE: The `ES_PATH_CONF` variable is the path for the {es}
